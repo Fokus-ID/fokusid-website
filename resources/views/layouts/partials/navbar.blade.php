@@ -144,7 +144,7 @@
                     <a href="/dashboard" wire:navigate class="nav-link" onclick="toggleMobileMenu()">Dashboard</a>
                 @endif
             @else
-                <a href="{{ route('login') }}" wire:navigate class="nav-link" onclick="toggleMobileMenu()">Login</a>
+                <a href="{{ route('login') }}" class="nav-link" onclick="toggleMobileMenu()">Login</a>
             @endauth
         @endif
     </div>
